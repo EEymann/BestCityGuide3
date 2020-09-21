@@ -6,7 +6,7 @@
 
 ## Description
 
-_This webpage was created for a TeamTreehouse project. It is an improvement on the project Best City Guide: Version Two, using flexbox layout methods._
+_This webpage was created for a TeamTreehouse project. It is an improvement on the project Best City Guide: Version Two and uses flexbox layout methods._
 ### Skills used:
 #### Mobile First Design Concepts
 * _Build a Layout with flexbox_
