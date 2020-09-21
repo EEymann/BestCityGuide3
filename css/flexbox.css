@@ -1,13 +1,25 @@
-/* ================================= 
+/* =================================
   Media Queries
 ==================================== */
 
 @media (min-width: 769px) {
+	.main-header,
+	.main-nav {
+		display: flex;
+	}
 
-	
+.main-header {
+		flex-direction: column;
+		align-items: center;
+	}
 
 }
 
 @media (min-width: 1025px) {
+
+	.main-header {
+		flex-direction: row;
+		justify-content: space-between; /*Aligns the name flex item to the left edge of the container, and the main-nav item to right edge.*/
+	}
 
 }
