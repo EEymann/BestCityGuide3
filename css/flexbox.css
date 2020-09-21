@@ -5,7 +5,8 @@
 @media (min-width: 769px) {
 	.main-header,
 	.main-nav,
-	.row  {
+	.row,
+	.col  {
 		display: flex;
 	}
 
@@ -17,6 +18,8 @@
 
 	.col {
 		flex: 1 50%;
+		flex-direction: column;
+
 	}
 
 	.row {
@@ -25,6 +28,13 @@
 
 	.secondary {
 		order: -1;
+	}
+
+	/*This pins the buttons to the bottom of the columns b/c the browser automatically
+		insterts the extra space in a column between the button and the flex item above it.*/
+	.button {
+		margin-top: auto;
+		align-self: flex-start; /*Aligns the buttons to the left edge of the columns*/
 	}
 
 }
